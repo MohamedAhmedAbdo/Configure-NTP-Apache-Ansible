@@ -1,0 +1,7 @@
+---
+- name: Configure NTP on Linux servers
+  hosts: client
+  become: yes
+  roles:
+    - Ansible-Apache-Role
+    - Ansible-NTP-Role
