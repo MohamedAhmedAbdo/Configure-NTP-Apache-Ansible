@@ -70,4 +70,4 @@
 
    ```
 
-***Happy Ending*** :relaxed:
+***Thank you*** 
