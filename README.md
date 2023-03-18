@@ -5,11 +5,11 @@
 
 - Here, we have 2 Roles [Apache role and NTP role], each role is on github Repo
 - each Role-Repo is mentioned in file **roles/requirements.yml** 
-   - **Apache Role:** [Github_Repo_link](https://github.com/DinaSol/Ansible-Apache-Role.git)
+   - **Apache Role:** [Github_Repo_link](https://github.com/MohamedAhmedAbdo/Ansible-Apache-Role-master)
       - install httpd service, enable and start it
       - copy from master node **index.html** file to  client in Path **/var/www/html/index.html**
       - allow port 80 on firewall and reload firewalld
-   - **NTP Role:** [Github_Repo_link](https://github.com/DinaSol/Ansible-NTP-Role.git)
+   - **NTP Role:** [Github_Repo_link](https://github.com/MohamedAhmedAbdo/Ansible-NTP-Role-master)
      - ensure that chrony is exist 
      - copy from master node **chrony.conf** file to  client in Path **/etc/chrony.conf**
      - enable and start chronyd service
