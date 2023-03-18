@@ -1,8 +1,8 @@
 roles:
-  - src: https://github.com/DinaSol/Ansible-Apache-Role
+  - src: https://github.com/MohamedAhmedAbdo/Ansible-Apache-Role-master
     scm: git
     version: master
 
-  - src: https://github.com/DinaSol/Ansible-NTP-Role
+  - src: https://github.com/MohamedAhmedAbdo/Ansible-NTP-Role-master
     scm: git
     version: master
